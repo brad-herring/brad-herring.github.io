@@ -3,3 +3,49 @@
   background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.landing-grid {
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+.avatar-img {
+  height: 272px;
+  padding: 1em;
+}
+
+.banner {
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 4em;
+  padding-top: 0.7em;
+  padding-bottom: 0.5em;
+  border-bottom: 5px ridge white;
+}
+
+.banner h2 {
+  font-size: 2.2em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5.5em;
+  padding: 5px;
+  padding-bottom: 0.1em;
+}
