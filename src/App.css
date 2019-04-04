@@ -1,13 +1,13 @@
 .header-color {
-  background: #C33764;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #C33764;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
 }
 
@@ -23,13 +23,19 @@
   width: 50%;
   margin: auto;
   color: white;
+  padding-bottom: 0.35em;
 }
 
 .banner h1 {
   font-size: 4em;
   padding-top: 0.7em;
-  padding-bottom: 0.5em;
-  border-bottom: 5px ridge white;
+}
+
+.banner hr {
+  border-top: 3px ridge white;
+  width: 80%;
+  margin: auto;
+  border-radius: 3px;
 }
 
 .banner h2 {

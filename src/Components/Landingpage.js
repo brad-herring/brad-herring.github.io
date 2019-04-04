@@ -14,6 +14,8 @@ class Landingpage extends Component {
             <div className="banner">
               <h1>Herschel Herring</h1>
 
+              <hr/>
+
               <h2>HTML | CSS | Bootstrap | JavaScript | jQuery | React</h2>
 
               <div className="social-links">
