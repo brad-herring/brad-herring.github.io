@@ -7,7 +7,6 @@ import { Link, HashRouter } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
       <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontSize: '26px'}} to="/">Herschel Herring</Link>} scroll>
@@ -32,8 +31,6 @@ class App extends Component {
         </Content>
     </Layout>
 </div>
-</HashRouter>
-
     );
   }
 }
