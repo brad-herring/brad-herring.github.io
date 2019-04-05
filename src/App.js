@@ -17,12 +17,12 @@ class App extends Component {
                 {<Link style={{fontSize: '22px'}} to="/contact">Contact</Link>}
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Home</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black', fontSize: '26px'}} to="/">Home</Link>}>
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              {<Link style={{fontSize: '22px', paddingBottom: '1em'}} to="/resume">Resume</Link>}
+              {<Link style={{fontSize: '22px', paddingBottom: '1em'}} to="/aboutme">About Me</Link>}
+              {<Link style={{fontSize: '22px', paddingBottom: '1em'}} to="/projects">Projects</Link>}
+              {<Link style={{fontSize: '22px', paddingBottom: '1em'}} to="/contact">Contact</Link>}
             </Navigation>
         </Drawer>
         <Content>
