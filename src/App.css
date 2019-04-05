@@ -73,14 +73,50 @@ iframe {
   width: 100%;
 }
 
+/* About Page */
+.about-body {
+  margin: auto;
+  padding-top: 7em;
+}
+
+.about-grid {
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  justify-content: center;
+  width: 78%;
+  margin: auto;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+}
+
+.about-grid h1 {
+  color: white;
+}
+
+.about-grid hr {
+  border-top: 4px white ridge;
+  width: 70%;
+}
+
+.about-grid p {
+  font-size: 24px;
+  padding-top: 2em;
+  margin: 2em;
+}
+
 /*Contact Page */
 .contact-body {
-  padding-top: 2em;
+  padding-top: 7em;
   margin: auto;
   justify-content: center;
 }
 
 .contact-grid {
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
   text-align: center;
   justify-content: center;
   width: 78%;
@@ -94,13 +130,14 @@ iframe {
 }
 
 .contact-grid hr {
-  border-top: 4px gray dotted;
+  border-top: 4px white dotted;
   width: 45%;
   margin: auto;
 }
 
 .contact-grid h2 {
   padding-top: 0.3em;
+  color: white;
 }
 
 .contact-list i {
