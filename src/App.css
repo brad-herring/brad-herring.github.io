@@ -67,6 +67,10 @@
   top: 3em;
 }
 
+.Robot {
+  top: 3em;
+}
+
 /* Resume Page */
 iframe {
   height: 850px;
@@ -96,7 +100,8 @@ iframe {
 
 .about-grid hr {
   border-top: 4px white ridge;
-  width: 70%;
+  width: 20%;
+  opacity: 0.5;
 }
 
 .about-grid p {
@@ -131,8 +136,9 @@ iframe {
 
 .contact-grid hr {
   border-top: 4px white dotted;
-  width: 45%;
+  width: 35%;
   margin: auto;
+  opacity: 0.5;
 }
 
 .contact-grid h2 {
@@ -141,7 +147,7 @@ iframe {
 }
 
 .contact-list i {
-  padding-left: 2em;
+  padding-left: 1.5em;
   padding-right: 0.4em;
   font-size: 60px;
 }

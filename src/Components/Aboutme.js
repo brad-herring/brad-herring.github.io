@@ -9,7 +9,7 @@ class Aboutme extends Component {
         <Grid className="about-grid">
           <Cell col={12}>
             <h1>About Me</h1>
-            <hr/>
+            <center><hr/></center>
             <p>My name is Herschel Herring, I am a self taught programmer and
             web developer living in the Orlando, FL area.
 

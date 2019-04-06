@@ -14,8 +14,9 @@ class Contact extends Component {
           className="avatar-img2"></img>
         </Cell>
         <Cell col={6}>
-          <h2>Contact</h2>
+          <center><h2>Contact</h2>
           <hr/>
+          </center>
           <div className="contact-list">
           <List>
             <ListItem>
@@ -31,8 +32,8 @@ class Contact extends Component {
               hbradherring@aol.com
               </ListItemContent>
             </ListItem>
-
           </List>
+
           </div>
         </Cell>
         </Grid>
