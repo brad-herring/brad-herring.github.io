@@ -1,14 +1,14 @@
 .header-color {
-  background: #5f2c82;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Landing Page */
 .landing-grid {
-  background: #5f2c82;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   background-size: cover;
   height: 95vh;
@@ -59,6 +59,14 @@
 }
 
 /* Projects Page */
+.projects-body {
+  background-image: url(https://c.pxhere.com/photos/3f/b2/winter_bw_white_lake_snow_black_mountains_nature-589111.jpg!d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
 .projects-grid {
   display: flex;
 }
@@ -79,14 +87,19 @@ iframe {
 
 /* About Page */
 .about-body {
+  background-image: url(https://c.pxhere.com/photos/3f/b2/winter_bw_white_lake_snow_black_mountains_nature-589111.jpg!d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
   margin: auto;
   padding-top: 7em;
 }
 
 .about-grid {
-  background: #5f2c82;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   justify-content: center;
   width: 78%;
@@ -96,18 +109,22 @@ iframe {
 
 .about-grid h1 {
   color: white;
+  opacity: 0.8;
 }
 
 .about-grid hr {
   border-top: 4px white ridge;
   width: 20%;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .about-grid p {
   font-size: 24px;
-  padding-top: 2em;
+  padding-top: 0.5em;
   margin: 2em;
+  color: white;
+  line-height: 2em;
+  opacity: 0.8
 }
 
 /*Contact Page */
@@ -115,12 +132,17 @@ iframe {
   padding-top: 7em;
   margin: auto;
   justify-content: center;
+  background-image: url(https://c.pxhere.com/photos/3f/b2/winter_bw_white_lake_snow_black_mountains_nature-589111.jpg!d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .contact-grid {
-  background: #5f2c82;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-align: center;
   justify-content: center;
@@ -136,18 +158,20 @@ iframe {
 
 .contact-grid hr {
   border-top: 4px white dotted;
-  width: 35%;
+  width: 27%;
   margin: auto;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .contact-grid h2 {
   padding-top: 0.3em;
   color: white;
+  opacity: 0.8;
 }
 
 .contact-list i {
   padding-left: 1.5em;
   padding-right: 0.4em;
   font-size: 60px;
+  opacity: 0.8;
 }

@@ -7,6 +7,7 @@ class Projects extends Component {
   }
   render() {
     return(
+      <div className="projects-body">
       <div className="projects-grid">
 
           <Card className="ThermoSmart" shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
@@ -29,7 +30,7 @@ class Projects extends Component {
         <Button href="https://github.com/brad-herring/self-driving-car"colored>GitHub</Button>
       </CardActions>
       </Card>
-
+      </div>
       </div>
     )
   }
