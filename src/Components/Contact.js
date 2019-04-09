@@ -20,20 +20,19 @@ class Contact extends Component {
           <div className="contact-list">
           <List>
             <ListItem>
-              <ListItemContent style={{fontSize: '30px'}}>
+              <ListItemContent style={{fontSize: '2rem', color: 'white'}}>
               <i className="fa fa-phone-square" aria-hidden="true"/>
               (941) 465-0642
               </ListItemContent>
             </ListItem>
 
             <ListItem>
-              <ListItemContent style={{fontSize: '28px'}}>
+              <ListItemContent style={{fontSize: '2rem', color: 'white'}}>
               <i className="fa fa-envelope" aria-hidden="true"/>
               hbradherring@aol.com
               </ListItemContent>
             </ListItem>
           </List>
-
           </div>
         </Cell>
         </Grid>

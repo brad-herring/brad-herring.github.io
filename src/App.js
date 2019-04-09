@@ -3,6 +3,7 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import './App.css';
 import Main from './Components/Main';
 import { Link, HashRouter } from 'react-router-dom';
+import Carousel from 'react-bootstrap/Carousel';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontSize: '26px'}} to="/">Herschel Herring</Link>} scroll>
             <Navigation>
-                {<Link style={{fontSize: '22px'}} to="/resume">Resume</Link>}
+                {<Link style={{fontSize: '22px', }} to="/resume">Resume</Link>}
                 {<Link style={{fontSize: '22px'}} to="/aboutme">About Me</Link>}
                 {<Link style={{fontSize: '22px'}} to="/projects">Projects</Link>}
                 {<Link style={{fontSize: '22px'}} to="/contact">Contact</Link>}

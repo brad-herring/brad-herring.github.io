@@ -7,6 +7,9 @@ class Landingpage extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
+
+
+
             <img src="http://www.newdesignfile.com/postpic/2011/02/male-business-avatar-icons_34179.png"
             alt="avatar"
             className="avatar-img"
