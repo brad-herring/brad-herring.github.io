@@ -30,6 +30,11 @@ class Landingpage extends Component {
                   <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
 
+                <a href="https://stackoverflow.com/users/11336059/brad-herring?tab=profile" rel="StackOverflow" target="_blank">
+                  <i className="fa fa-stack-overflow" aria-hidden="true"/>
+                </a>
+
+
               </div>
             </div>
           </Cell>
