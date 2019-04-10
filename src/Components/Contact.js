@@ -5,7 +5,10 @@ class Contact extends Component {
 
   render() {
     return(
-      <div className="contact-body">
+      <div className="contact-body" style={{width: '100%', margin: 'auto'}}>
+        <Grid className="contact-bg">
+
+        <div className="contact-banner">
         <Grid className="contact-grid">
         <Cell col={6}>
           <h1>Herschel Herring</h1>
@@ -13,6 +16,8 @@ class Contact extends Component {
           alt="avatar"
           className="avatar-img2"></img>
         </Cell>
+
+
         <Cell col={6}>
           <center><h2>Contact</h2>
           <hr/>
@@ -20,14 +25,14 @@ class Contact extends Component {
           <div className="contact-list">
           <List>
             <ListItem>
-              <ListItemContent style={{fontSize: '2rem', color: 'white'}}>
+              <ListItemContent style={{fontSize: '4vh', color: 'white'}}>
               <i className="fa fa-phone-square" aria-hidden="true"/>
               (941) 465-0642
               </ListItemContent>
             </ListItem>
 
             <ListItem>
-              <ListItemContent style={{fontSize: '2rem', color: 'white'}}>
+              <ListItemContent style={{fontSize: '4vh', color: 'white'}}>
               <i className="fa fa-envelope" aria-hidden="true"/>
               hbradherring@aol.com
               </ListItemContent>
@@ -35,6 +40,8 @@ class Contact extends Component {
           </List>
           </div>
         </Cell>
+        </Grid>
+        </div>
         </Grid>
       </div>
     )
