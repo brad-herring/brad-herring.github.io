@@ -7,9 +7,11 @@ class Contact extends Component {
     return(
       <div className="contact-body" style={{width: '100%', margin: 'auto'}}>
         <Grid className="contact-bg">
+        <Cell col={12}>
 
-        <div className="contact-banner">
+        <div className="contact-container">
         <Grid className="contact-grid">
+
         <Cell col={6}>
           <h1>Herschel Herring</h1>
           <img src="http://www.newdesignfile.com/postpic/2011/02/male-business-avatar-icons_34179.png"
@@ -25,14 +27,14 @@ class Contact extends Component {
           <div className="contact-list">
           <List>
             <ListItem>
-              <ListItemContent style={{fontSize: '4vh', color: 'white'}}>
+              <ListItemContent style={{fontSize: '1.5vw', color: 'white'}}>
               <i className="fa fa-phone-square" aria-hidden="true"/>
               (941) 465-0642
               </ListItemContent>
             </ListItem>
 
             <ListItem>
-              <ListItemContent style={{fontSize: '4vh', color: 'white'}}>
+              <ListItemContent style={{fontSize: '1.5vw', color: 'white'}}>
               <i className="fa fa-envelope" aria-hidden="true"/>
               hbradherring@aol.com
               </ListItemContent>
@@ -42,6 +44,7 @@ class Contact extends Component {
         </Cell>
         </Grid>
         </div>
+        </Cell>
         </Grid>
       </div>
     )

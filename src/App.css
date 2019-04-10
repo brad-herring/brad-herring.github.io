@@ -11,9 +11,10 @@
   background: -webkit-linear-gradient(to bottom, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  display: flex;
   background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
+  height: 170vh;
+  width: auto;
 }
 
 .avatar-img {
@@ -39,11 +40,11 @@
   border-top: 3px ridge white;
   width: 80%;
   margin: auto;
-  border-radius: 3px;
+  border-radius: 2vh;
 }
 
 .banner h2 {
-  font-size: 2.2rem;
+  font-size: 3vh;
   padding: 0.2em;
 }
 
@@ -94,11 +95,8 @@ iframe {
   background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
   text-align: center;
   background-size: 100% 100%;
-  height: 100%;
+  height: 150vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .about-banner {
@@ -107,8 +105,8 @@ iframe {
   justify-content: center;
   text-align: center;
   width: 78%;
-  margin-bottom: 15em;
-  margin-top: 6em;
+  margin-bottom: 2em;
+  margin-top: 7em;
   background: #673AB7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -144,31 +142,18 @@ iframe {
   background-blend-mode: screen;
   text-align: center;
   background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  height: 150vh;
+  width: auto;
 }
 
-.contact-banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  width: 78%;
-  margin-bottom: 15em;
-  margin-top: 6em;
-  background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  border-radius: 5px;
+.contact-container {
+  width: 100%;
+  padding-top: 10vh;
 }
 
 .contact-grid {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  width: 78%;
+  height: auto;
   background: #673AB7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -178,13 +163,13 @@ iframe {
 }
 
 .avatar-img2 {
-  height: 22rem;
+  height: 17vw;
   padding-bottom: 2em;
 }
 
 .contact-grid hr {
-  border-top: 4px white dotted;
-  width: 27%;
+  border-top: 0.2vw white dotted;
+  width: 33%;
   margin: auto;
   opacity: 0.8;
 }
@@ -192,7 +177,7 @@ iframe {
 .contact-grid h2 {
   padding-top: 0.3em;
   color: white;
-  font-size: 7vh;
+  font-size: 3vw;
 }
 
 .contact-list i {
