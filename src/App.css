@@ -76,11 +76,15 @@
 }
 
 .ThermoSmart {
-  top: 5em;
+  top: 4.5em;
+}
+
+.Financial {
+  top: 4.5em;
 }
 
 .Robot {
-  top: 5em;
+  top: 4.5em;
 }
 
 /* Resume Page */

@@ -23,6 +23,17 @@ class Projects extends Component {
         </CardActions>
         </Card>
 
+      <Card className="Financial" shadow={5} style={{width: '22vw', height: '50vh', margin: 'auto'}}>
+        <CardTitle expand style={{color: '#fff', background: 'url(https://media.istockphoto.com/photos/technical-financial-graph-on-technology-abstract-background-picture-id673266772?k=6&m=673266772&s=612x612&w=0&h=RqHErFKhc22ol4nZKN9qlrQqFwI_G4EbbyHVX3oGC4g=) center / cover'}}>Financial Analyzer</CardTitle>
+        <CardText style={{fontSize: '1.2vw'}}>
+          A react web app that can be used to find the financial ratios of any publicly traded U.S. corporation.
+        </CardText>
+        <CardActions border>
+        <Button style={{fontSize: '1.1vw'}} href="https://github.com/brad-herring/financial-ratio-app"colored>GitHub</Button>
+        <Button style={{fontSize: '1.1vw'}} href="https://brad-herring.github.io/financial-ratio-app/"colored>Live Demo</Button>
+      </CardActions>
+      </Card>
+
       <Card className="Robot" shadow={5} style={{width: '22vw', height: '50vh', margin: 'auto'}}>
         <CardTitle expand style={{color: '#fff', background: 'url(http://cdn.shopify.com/s/files/1/0615/2193/products/Arduino_Uno_grande.jpg?v=1495597642) center / cover'}}>Self-Driving Car</CardTitle>
         <CardText style={{fontSize: '1.2vw'}}>
