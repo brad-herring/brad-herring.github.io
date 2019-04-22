@@ -1,194 +1,214 @@
 .header-color {
-  background: #673AB7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: verdana;
+    background: #673AB7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #512DA8, #673AB7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #512DA8, #673AB7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: verdana;
 }
 
+
 /* Landing Page */
+
 .landing-grid {
-  background: #673AB7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-  display: flex;
-  background-size: 100% 100%;
-  height: 170vh;
-  width: auto;
+    background: #673AB7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #512DA8, #673AB7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #512DA8, #673AB7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: flex;
+    background-size: 100% 100%;
+    height: 170vh;
+    width: auto;
 }
 
 .avatar-img {
-  height: 19rem;
-  padding: 1.8em;
+    height: 19rem;
+    padding: 1.8em;
 }
 
 .banner {
-  background-color: black;
-  opacity: 0.7;
-  border-radius: 10px;
-  width: 50%;
-  margin: auto;
-  color: white;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    color: white;
 }
 
 .banner h1 {
-  font-size: 7vh;
-  padding-top: 0.5em;
+    font-size: 7vh;
+    padding-top: 0.5em;
 }
 
 .banner hr {
-  border-top: 3px ridge white;
-  width: 80%;
-  margin: auto;
-  border-radius: 2vh;
+    border-top: 3px ridge white;
+    width: 80%;
+    margin: auto;
+    border-radius: 2vh;
 }
 
 .banner h2 {
-  font-size: 3vh;
-  padding: 0.2em;
+    font-size: 3vh;
+    padding: 0.2em;
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
-  width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 45%;
 }
 
 .social-links i {
-  color: white;
-  font-size: 10vh;
-  padding-bottom: 1rem;
+    color: white;
+    font-size: 10vh;
+    padding-bottom: 1rem;
 }
 
+
 /* Projects Page */
+
 .projects-grid {
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-  background-blend-mode: screen;
-  background-size: 100% 100%;
-  height: 150vh;
-  width: auto;
+    background-color: #fcfcfc;
+    background-blend-mode: screen;
+    background-size: 100% 100%;
+    height: 150vh;
+    width: auto;
 }
 
 .projects-cards {
-  display: flex;
+    display: flex;
 }
 
 .ThermoSmart {
-  top: 4.5em;
+    top: 4.5em;
 }
 
 .Financial {
-  top: 4.5em;
+    top: 4.5em;
 }
 
 .Robot {
-  top: 4.5em;
+    top: 4.5em;
 }
 
+
 /* Resume Page */
+
 iframe {
-  height: 850px;
-  width: 100%;
+    height: 850px;
+    width: 100%;
 }
+
 
 /* About Page */
 
 .about-grid {
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-  text-align: center;
-  background-size: 100% 100%;
-  height: 150vh;
-  width: 100%;
+    background-color: #fcfcfc;
+    text-align: center;
+    background-size: 100% 100%;
+    height: 160vh;
+    width: 100%;
 }
 
 .about-banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  width: 78%;
-  margin-bottom: 2em;
-  margin-top: 7em;
-  background: #673AB7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 78%;
+    margin-bottom: 2em;
+    margin-top: 7em;
+    background: #673AB7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #512DA8, #673AB7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #512DA8, #673AB7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 13px 40px -13px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
 }
 
 .about-banner h1 {
-  color: white;
-  opacity: 0.8;
-  font-size: 7vh;
+    color: white;
+    opacity: 0.9;
+    font-size: 7vh;
 }
 
 .about-banner hr {
-  border-top: 4px white ridge;
-  width: 20%;
-  opacity: 0.8;
-  font-size: 1vh;
+    border-top: 4px white ridge;
+    width: 20%;
+    opacity: 0.9;
+    font-size: 1vh;
 }
 
 .about-banner p {
-  font-size: 3.5vh;
-  margin: 2em;
-  color: white;
-  line-height: 2em;
-  opacity: 0.8
+    font-size: 3.5vh;
+    margin: 2em;
+    color: white;
+    line-height: 2em;
+    opacity: 0.9
 }
+
 
 /*Contact Page */
 
 .contact-bg {
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-  background-blend-mode: screen;
-  text-align: center;
-  background-size: 100% 100%;
-  height: 150vh;
-  width: auto;
+    background-color: #fcfcfc;
+    background-blend-mode: screen;
+    text-align: center;
+    background-size: 100% 100%;
+    height: 150vh;
+    width: auto;
 }
 
 .contact-container {
-  width: 100%;
-  padding-top: 10vh;
+    width: 100%;
+    padding-top: 10vh;
 }
 
 .contact-grid {
-  width: 78%;
-  height: auto;
-  background: #673AB7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  border-radius: 5px;
-  color: white;
+    width: 78%;
+    height: auto;
+    background: #673AB7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #512DA8, #673AB7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #512DA8, #673AB7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 13px 40px -13px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    color: white;
 }
 
 .avatar-img2 {
-  height: 17vw;
-  padding-bottom: 2em;
+    height: 17vw;
+    padding-bottom: 2em;
 }
 
 .contact-grid hr {
-  border-top: 0.2vw white dotted;
-  width: 33%;
-  margin: auto;
-  opacity: 0.8;
+    border-top: 0.2vw white dotted;
+    width: 33%;
+    margin: auto;
+    opacity: 0.8;
 }
 
 .contact-grid h2 {
-  padding-top: 0.3em;
-  color: white;
-  font-size: 3vw;
+    padding-top: 0.3em;
+    color: white;
+    font-size: 3vw;
 }
 
 .contact-list i {
-  padding-left: 6vw;
-  padding-right: 2vw;
-  padding-top: 1rem;
-  font-size: 6vh;
-  opacity: 0.8;
-  color: white;
+    padding-left: 6vw;
+    padding-right: 2vw;
+    padding-top: 1rem;
+    font-size: 6vh;
+    opacity: 0.8;
+    color: white;
 }
